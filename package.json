@@ -12,7 +12,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\"",
+      "pre-commit": "npm run clmsg && echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\"",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
