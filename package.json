@@ -7,7 +7,14 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "clmsg": "echo \"Verification du message de commit\" && commitlint -e && echo \"message valide\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\"",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "private": true,
   "dependencies": {
@@ -29,10 +36,13 @@
     "@angular/cli": "~7.3.9",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
+    "husky": "^2.3.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.0.0",
