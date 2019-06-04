@@ -11,9 +11,8 @@
   },
   "husky": {
     "hooks": {
-
-      "commit-msg": "echo \"Verification du message de commit\" && commitlint -E HUSKY_GIT_PARAMS && echo \"message valide\"",
-      "pre-commit": "echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\""
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint"
     }
   },
   "private": true,
