@@ -7,13 +7,13 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "clmsg": "echo \"Verification du message de commit\" && commitlint -e && echo \"message valide\""
+    "e2e": "ng e2e"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\"",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+
+      "commit-msg": "echo \"Verification du message de commit\" && commitlint -E HUSKY_GIT_PARAMS && echo \"message valide\"",
+      "pre-commit": "echo \"Lancement des tests...\" && npm run lint && echo \"tests valide\""
     }
   },
   "private": true,
