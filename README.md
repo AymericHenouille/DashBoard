@@ -1,6 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f3595b9ac094cd0a4ffd2012bf916f1)](https://app.codacy.com/app/AymegikeLewok/DashBoard?utm_source=github.com&utm_medium=referral&utm_content=AymegikeLewok/DashBoard&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://travis-ci.org/AymegikeLewok/DashBoard.svg?branch=master)](https://travis-ci.org/AymegikeLewok/DashBoard)
 [![Coverage Status](https://coveralls.io/repos/github/AymegikeLewok/DashBoard/badge.svg?branch=master)](https://coveralls.io/github/AymegikeLewok/DashBoard?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/68486b990e3b40beb1125e6763657a3d)](https://www.codacy.com/app/AymegikeLewok/DashBoard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AymegikeLewok/DashBoard&amp;utm_campaign=Badge_Grade)
 
 # DashBoard
 
