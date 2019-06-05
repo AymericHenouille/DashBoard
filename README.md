@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/AymegikeLewok/DashBoard.svg?branch=master)](https://travis-ci.org/AymegikeLewok/DashBoard)
+[![Coverage Status](https://coveralls.io/repos/github/AymegikeLewok/DashBoard/badge.svg?branch=master)](https://coveralls.io/github/AymegikeLewok/DashBoard?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/68486b990e3b40beb1125e6763657a3d)](https://www.codacy.com/app/AymegikeLewok/DashBoard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AymegikeLewok/DashBoard&amp;utm_campaign=Badge_Grade)
+
 # DashBoard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
