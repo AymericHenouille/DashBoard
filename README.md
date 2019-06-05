@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/AymegikeLewok/DashBoard.svg?branch=master)](https://travis-ci.org/AymegikeLewok/DashBoard)
+[![Coverage Status](https://coveralls.io/repos/github/AymegikeLewok/DashBoard/badge.svg?branch=master)](https://coveralls.io/github/AymegikeLewok/DashBoard?branch=master)
+
 # DashBoard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
